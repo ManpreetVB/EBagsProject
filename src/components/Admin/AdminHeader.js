@@ -58,6 +58,18 @@ const AdminHeader = () => {
                Manage Bag
              </Link>
            </li>
+
+           <li class="nav-item">
+           <Link to="/products" class="nav-link" href="#" style={{color:"white"}}>
+               Manage Product
+             </Link>
+           </li>
+
+           <li class="nav-item">
+           <Link to="/productlist" class="nav-link" href="#" style={{color:"white"}}>
+                Product List Cart
+             </Link>
+           </li>
           
            <li class="nav-item">
                 <Link

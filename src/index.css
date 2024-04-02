@@ -12,3 +12,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Products.css */
+
+/* Add this CSS to your component or global stylesheet */
+
+.banner {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-layer {
+  margin-bottom: 20px;
+}
+
+.title-w3layouts {
+  font-size: 24px;
+  color: #333;
+}
+
+.wthreeproductdisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cart-grid {
+  margin: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+ 
+}
+
+.cart-grid .img img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.info {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.info div {
+  margin: 5px 0;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  
+}
+
+.wthreecartaits {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.w3view-cart {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.w3view-cart:hover {
+  background-color: #45a049;
+}
+.cart-grid:hover .img img {
+  transform: scale(1.05); /* Increase the size of the image */
+  transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.cart-grid:hover .info {
+  display: block; /* Show product details on hover */
+}
+button {
+  background-color: #ff0019; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Cursor style */
+}
+
+button:hover {
+  background-color: #ff0019; /* Darker blue color on hover */
+}

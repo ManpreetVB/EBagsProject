@@ -82,6 +82,7 @@ const Profile = () => {
         />
       </div>
 
+
       
         <div className="row">
         <label className="label">LastName</label>
@@ -93,7 +94,7 @@ const Profile = () => {
           value={lastName}
         />
       </div>
-
+     
       
         <div className="row">
         <label className="label">Email</label>
@@ -105,7 +106,7 @@ const Profile = () => {
           value={email}
         />
       </div>
-
+   
       
         <div className="row">
         <label className="label">Password</label>
@@ -117,6 +118,7 @@ const Profile = () => {
           value={password}
         />
       </div>
+
       <div className="row">
         <button className="btn btn-primary "onClick={(e)=> handleUploadFile(e)}>
           {" "}

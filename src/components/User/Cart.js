@@ -19,7 +19,7 @@ const Cart = () => {
     axios
       .post(url, data)
       .then((result) => {
-        const data = result.data;
+        const data = result.data.response;
         if (data.statusCode === 200) {
           setData(data.listCart);
         }
@@ -38,7 +38,7 @@ const Cart = () => {
     axios
       .post(url, data)
       .then((result) => {
-        const dt = result.data;
+        const dt = result.data.response;
         if (dt.statusCode === 200) {
           setData([]);
           alert(dt.statusMessage);
@@ -59,7 +59,7 @@ const Cart = () => {
     axios
       .post(url, data)
       .then((result) => {
-        const dt = result.data;
+        const dt = result.data.response;
         if (dt.statusCode === 200) {
           getData();
           alert(dt.statusMessage);

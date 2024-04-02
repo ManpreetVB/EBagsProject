@@ -9,9 +9,10 @@ import Cart from "./User/Cart";
 import BagDisplay from "./User/BagDisplay";
 import AdminDashboard from "./Admin/AdminDashboard";
 import AdminOrders from "./Admin/AdminOrders";
-
+import Products from "./Admin/Products";
 import Bags from "./Admin/Bags";
 import UserList from "./Admin/UserList";
+import ProductList from "./Admin/ProductList";
 const RouterPage =() => {
     return(
        <Router>
@@ -30,6 +31,9 @@ const RouterPage =() => {
            <Route path="/adminorders" element={<AdminOrders/>}  />
            <Route path="/userlist" element={<UserList/>}/>
            <Route path="/bags" element={<Bags/>} />
+           <Route path="/products" element={<Products/>}/>
+           <Route path="/productlist" element={<ProductList/>}/>
+           
            
         </Routes>
        </Router>
